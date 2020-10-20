@@ -14,6 +14,8 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: transparent;
+  float: right;
+  margin-right: 25px;
 }
 
 li {
@@ -33,8 +35,15 @@ li a:hover {
   background-color: #ebedf0;
 }
 
+.logo {
+  margin-right: 400px;
+}
 
 /* ----------FOOTER---------- */
+
+.padding-1 {
+    padding: 500px;
+}
 
 footer{
 	bottom: 0;
