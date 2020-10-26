@@ -2,5 +2,109 @@
 {% block conteudo %}
 <body>
 
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+        <img class="imgslide" src="static/images/slide/banner1.jpg" style="width:100%">
+        <div class="text">TORNA OS TEUS SONHOS REALIDADE!</div>
+        <div class="text2">Escola de Música ... vem conhecer-nos!</div>
+        <button class="button button1">CONTACTE-NOS</button>
+        <button class="button button2">INSCREVA-SE</button>
+    </div>
+
+    <div class="mySlides fade">
+        <img class="imgslide" src="static/images/slide/banner2.jpg" style="width:100%">
+        <div class="text">CURSOS DE GUITARRA ELÉTRICA</div>
+        <div class="text2">A PARTIR DOS 8 ANOS!</div>
+        <button class="button button1">CONTACTE-NOS</button>
+        <button class="button button2">VER CURSO</button>
+    </div>
+
+    <div class="mySlides fade">
+        <img class="imgslide" src="static/images/slide/banner4.jpg" style="width:100%">
+        <div class="text">MÚSICA EM MOVIMENTO</div>
+        <div class="text2">A PARTIR DOS 2 ANOS...</div>
+        <button class="button button1">CURSOS LIVRES-MUSICA EM MOVIMENTO</button>
+    </div>
+
+    <div class="mySlides fade">
+        <img class="imgslide" src="static/images/slide/banner5.jpg" style="width:100%">
+        <div class="text">INSCRIÇÕES ABERTAS</div>
+        <div class="text2">Marca uma aula experimental!</div>
+        <button class="button button1">CONTACTE-NOS</button>
+        <button class="button button2">INSCREVA-SE</button>
+    </div>
+
+    <div class="mySlides fade">
+        <img class="imgslide" src="static/images/slide/banner6.jpg" style="width:100%">
+        <div class="text">AULAS EM CASA</div>
+        <button class="button button1">AULAS EM CASA</button>
+    </div>
+</div>
+<!-- proximo e anterior -->
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+<br>
+
+<!-- 6 pontos -->
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+
+<!-- AUTOMATIC -->
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display = "block";
+  setTimeout(carousel, 3000); // Change image every 3 seconds
+}
+</script>
+
+<h2 class="titulo">CURSOS</h2>
+<h3 class="subtitulo">Dispomos de vários cursos de elevada qualidade, disponibilizamos formações para todas as idades, a partir dos 2 anos…</h3>
+<img class="thumb" src="/static/images/thumb/thumb.png">
+<h2 class="titulo">CURSOS LIVRES</h2>
+
 </body>
 {% endblock %}
