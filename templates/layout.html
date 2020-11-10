@@ -12,20 +12,28 @@
 </head>
 
 <!--Navbar-->
-<nav>
-    <ul>
-        <li><img class="logo" src="/static/images/logo/logomusica.png" width="80px"></li>
-        <li><a href="/">INICIO</a></li>
-        <li><a href="#news">CURSOS</a></li>
-        <li><a href="#contact">ESCOLA</a></li>
-        <li><a href="#about">GALERIA</a></li>
-        <li><a href="#about">CONTACTOS</a></li>
-        <li><a href="#about">MYADMIN</a></li>
-        <li><a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
-        <li><a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a></li>
-        <li><a href="https://www.instagram.com"><i class="fa fa-user"></i></a></li>
-    </ul>
-</nav>
+<header>
+    <div class="inner-width">
+        <a href="#" class="logo"><img src="/static/images/logo/logomusica.png" alt=""></a>
+        <i class="menu-toggle-btn fas fa-bars"></i>
+        <nav class="navigation-menu">
+            <a href="#"><i class="fas fa-home home"></i> Home</a>
+            <a href="#"><i class="fas fa-align-left about"></i> About</a>
+            <a href="#"><i class="fab fa-buffer works"></i> Works</a>
+            <a href="#"><i class="fas fa-users team"></i> Team</a>
+            <a href="#"><i class="fas fa-headset contact"></i> Contact</a>
+        </nav>
+    </div>
+</header>
+
+
+<script type="text/javascript">
+      $(".menu-toggle-btn").click(function(){
+        $(this).toggleClass("fa-times");
+        $(".navigation-menu").toggleClass("active");
+      });
+
+</script>
 
 </body>
 
@@ -33,59 +41,28 @@
 {% endblock %}
 
 <div class="padding-1"></div>
-<footer class="footer-distributed">
-    <div class="footer-left">
-
-        <h3>ESCOLA<span>CMB</span></h3>
-
-        <p class="footer-links">
-            <a href="/">Inicio</a>
-            ·
-            <a href="#">Blog</a>
-            ·
-            <a href="#">Precos</a>
-            ·
-            <a href="#">Sobre</a>
-            ·
-            <a href="#">Faq</a>
-            ·
-            <a href="#">Contacto</a>
-        </p>
-
-        <p class="footer-company-name">Goncalo Gomes &copy; 2020</p>
-    </div>
-
-    <div class="footer-center">
-        <div>
-            <i class="fa fa-map-marker"></i>
-            <p><span>Rua Nova da Estacao</span> Maximinos, Braga</p>
+<footer>
+    <div class="footer-container">
+        <div class="left-col">
+            <img src="/static/images/logo/logomusica.png" alt="" class="logo2">
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="rights-text">© 2020 Created By Gonçalo Gomes All Rights Reserved.</p>
         </div>
 
-        <div>
-            <i class="fa fa-phone"></i>
-            <p>+356 963 965 166</p>
-        </div>
-
-        <div>
-            <i class="fa fa-envelope"></i>
-            <p><a href="mailto:support@company.com">escolaCMB@gmail.com</a></p>
-        </div>
-
-    </div>
-
-    <div class="footer-right">
-        <p class="footer-company-about">
-            <span>Sobre a nossa escola</span>
-            A comunidade educativa do CMB envolve cerca de 500 alunos com idades compreendidas entre os 4 e 25 anos, onde todos têm em comum a paixão pela música. Os requisitos para estudar no CMB centram-se essencialmente no gosto musical de cada aluno e nas suas potencialidades.
-        </p>
-
-        <div class="footer-icons">
-            <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
-            <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
-            <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+        <div class="right-col">
+          <h1>Escola CMB</h1>
+          <div class="border"></div>
+          <p>A comunidade educativa do CMB envolve cerca de 500 alunos com idades compreendidas<br> entre os 4 e 25 anos, onde todos têm em comum a paixão pela música.Os requisitos para<br>
+              estudar no CMB centram-se essencialmente no gosto musical de cada aluno e nas suas<br> potencialidades.</p>
+          <form action="" class="newsletter-form">
+            <input type="submit" class="btn" value="CONTACTA-NOS">
+          </form>
         </div>
     </div>
-
 </footer>
 
 </body>
