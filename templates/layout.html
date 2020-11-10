@@ -6,25 +6,34 @@
 
     <!-- Load an icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="static/scripts.js"></script>
     <link rel="stylesheet" href="static/style.css">
     <script src="https://kit.fontawesome.com/a8894cee15.js" crossorigin="anonymous"></script>
-
 </head>
 
 <!--Navbar-->
-<header>
+<nav class="navbar">
     <div class="inner-width">
-        <a href="#" class="logo"><img src="/static/images/logo/logomusica.png" alt=""></a>
-        <i class="menu-toggle-btn fas fa-bars"></i>
-        <nav class="navigation-menu">
-            <a href="#"><i class="fas fa-home home"></i> CMB</a>
-            <a href="#"><i class="fas fa-align-left about"></i> A ESCOLA</a>
-            <a href="#"><i class="fab fa-buffer works"></i> CURSOS</a>
-            <a href="#"><i class="fas fa-users team"></i> FOTOS</a>
-            <a href="#"><i class="fas fa-headset contact"></i> CONTACTOS</a>
-        </nav>
+        <a href="#inicio" class="logo"></a>
+        <button class="menu-toggler">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="navbar-menu">
+            <a href="#inicio">INICIO</a>
+            <a href="#sobre">A ESCOLA</a>
+            <a href="#cursos">CURSOS</a>
+            <a href="#fotos">GALERIA</a>
+            <a href="#contactos">CONTATCTOS</a>
+        </div>
     </div>
-</header>
+</nav>
 
 
 <script type="text/javascript">
@@ -32,6 +41,7 @@
         $(this).toggleClass("fa-times");
         $(".navigation-menu").toggleClass("active");
       });
+
 
 </script>
 
@@ -54,13 +64,15 @@
         </div>
 
         <div class="right-col">
-          <h1>Escola CMB</h1>
-          <div class="border"></div>
-          <p>A comunidade educativa do CMB envolve cerca de 500 alunos com idades compreendidas<br> entre os 4 e 25 anos, onde todos têm em comum a paixão pela música.Os requisitos para<br>
-              estudar no CMB centram-se essencialmente no gosto musical de cada aluno e nas suas<br> potencialidades.</p>
-          <form action="" class="newsletter-form">
-            <input type="submit" class="btn" value="CONTACTA-NOS">
-          </form>
+            <h1>Escola CMB</h1>
+            <div class="border"></div>
+            <p>A comunidade educativa do CMB envolve cerca de 500 alunos com idades compreendidas<br> entre os 4 e 25
+                anos, onde todos têm em comum a paixão pela música.Os requisitos para<br>
+                estudar no CMB centram-se essencialmente no gosto musical de cada aluno e nas suas<br> potencialidades.
+            </p>
+            <form action="" class="newsletter-form">
+                <input type="submit" class="btn" value="CONTACTA-NOS">
+            </form>
         </div>
     </div>
 </footer>
