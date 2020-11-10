@@ -21,7 +21,7 @@ header{
 
 .logo{
   float: left;
-  padding: 20px 0;
+  padding: 15px 0;
 }
 
 .logo img{
@@ -218,4 +218,60 @@ footer{
     width: 100%;
     margin-top: 20px;
     }
+}
+
+
+/* ----------HERO IMAGE---------- */
+.hero-image {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+    background: url(/static/images/bg/bg.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.container2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.container2 h1{
+    font-size: 32px;
+    letter-spacing: 0.2em;
+    margin: 0;
+}
+
+.container2 h1 span{
+    border: 5px solid white;
+    padding: 6px 14px;
+    display: inline-block;
+}
+
+.des{
+    margin: 30px;
+    display: block;
+    font-size: 12px;
+    text-shadow: 0 0 10px black;
+}
+
+.btn2{
+  padding: 18px 20px;
+  font-size: 13px;
+  color: white;
+  background: #fc5c65;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.btn2:hover{
+  background: transparent;
+  color: white;
+  transform: scale(1.1);
+  transition: .3s linear;
 }
