@@ -1,137 +1,283 @@
 {% extends 'layout.html' %}
 {% block conteudo %}
 <body>
-<section id="inicio">
+<section id="home">
     <div class="inner-width">
         <div class="content">
-            <h1>Escola CMB</h1>
+            <h1>ESCOLA CMB</h1>
             <div class="sm">
-                <a href="#" class="fab fa-facebook-f"></a>
-                <a href="#" class="fab fa-twitter"></a>
-                <a href="#" class="fab fa-instagram"></a>
+                <a href="https://www.facebook.com" class="fab fa-facebook-f"></a>
+                <a href="https://twitter.com/home" class="fab fa-twitter"></a>
+                <a href="https://instagram.com" class="fab fa-instagram"></a>
             </div>
             <div class="buttons">
-                <a href="#">CONTACTA-NOS</a>
-                <a href="#">CURSOS</a>
+                <a href="#contact">Contacte-nos</a>
+                <a href="#about">Mais informacoes</a>
             </div>
         </div>
     </div>
 </section>
 
-<section id="sobre">
+
+<section id="about">
     <div class="inner-width">
-        <h1 class="section-title">A ESCOLA</h1>
+        <h1 class="section-title">A NOSSA MISSAO</h1>
         <div class="about-content">
-            <img src="/static/images/logo/logomusica.png" alt="" class="about-pic">
+            <img src="/static/images/logo/black-logo.png" alt="" class="about-pic">
             <div class="about-text">
-                <h2>Escola CMB</h2>
-                <h3>
-                    <span>Escola</span>
-                    <span>Familia</span>
-                    <span>Paixao</span>
-                </h3>
+                <h2>Ola! Bem Vindo A CMB</h2>
                 <p>
-                    A Escola de Música é uma instituição que surge em 2003, em Braga,
-                    fruto da grande paixão pela música, por Gonçalo Gomes.
-                    Os primeiros cursos serem leccionados foram o de piano e o de
-                    guitarra clássica, colaborando com a escola apenas dois professores.
-                    Ao longo dos anos, a escola foi sofrendo alteração em vários aspectos:
-                    a equipa pedagógica aumentou, bem como o leque de cursos,
-                    tentando sempre manter o nível de excelência do ensino praticado.
+                    Temos como principal objetivo oferecer um ensino de qualidade, num ambiente único e descontraído,
+                    abordando os mais diversos estilos musicais seguindo metodologias de ensino ajustadas a cada
+                    indivíduo, de acordo com os seus interesses/objetivos, idade e/ou especificidades individuais.
+
+                    A nossa linha orientadora de ensino tem como base uma forma aberta, honesta e verdadeiramente
+                    inclusiva no infinito respeito por cada identidade de todos aqueles que chegam até nós desenvolvendo
+                    momentos de música, de espanto, de descoberta, de trabalho e de partilha.
+
+                    Move-nos assim, a paixão pela música e o seu impacto positivo na nossa sociedade. Esta paixão é
+                    partilhada com todos os nossos alunos e acreditamos que todos temos o direito a usufruir e aprender
+                    de forma única e singular esta tão nobre arte, a Música.
                 </p>
             </div>
         </div>
+    </div>
+</section>
 
 
-        <div class="especialidades">
-            <div class="skill">
-                <div class="skill-info">
-                    <span>PIANO</span>
-                    <span>80%</span>
-                </div>
-                <div class="skill-bar html"></div>
+<section id="services" class="dark">
+    <div class="inner-width">
+        <h1 class="section-title">CURSOS</h1>
+        <div class="services">
+
+            <div class="service">
+                <img src="/static/images/cursos/piano.png">
+                <h4>PIANO</h4>
             </div>
 
-            <div class="skill">
-                <div class="skill-info">
-                    <span>GUITARRA ACUSTICA</span>
-                    <span>65%</span>
-                </div>
-                <div class="skill-bar css"></div>
+            <div class="service">
+                <img src="/static/images/cursos/baixo_eletrica.png">
+                <h4>GUITARRA ACUSTICA</h4>
             </div>
 
-            <div class="skill">
-                <div class="skill-info">
-                    <span>GUITARRA ELETRICA</span>
-                    <span>70%</span>
-                </div>
-                <div class="skill-bar js"></div>
+            <div class="service">
+                <img src="/static/images/cursos/bateria.png">
+                <h4>BATERIA</h4>
             </div>
 
-            <div class="skill">
-                <div class="skill-info">
-                    <span>BAIXO ELETRICO</span>
-                    <span>60%</span>
-                </div>
-                <div class="skill-bar php"></div>
+            <div class="service">
+                <img src="/static/images/cursos/canto.png">
+                <h4>CANTO</h4>
             </div>
 
-            <div class="skill">
-                <div class="skill-info">
-                    <span>CAVAQUINHO</span>
-                    <span>60%</span>
-                </div>
-                <div class="skill-bar mysql"></div>
+            <div class="service">
+                <img src="/static/images/cursos/guitarra.png">
+                <h4>GUITARRA</h4>
             </div>
 
-            <div class="skill">
-                <div class="skill-info">
-                    <span>BATERIA</span>
-                    <span>75%</span>
-                </div>
-                <div class="skill-bar cs"></div>
+            <div class="service">
+                <img src="/static/images/cursos/guitarraeletrica.png">
+                <h4>GUITARRA ELETRICA</h4>
             </div>
 
-            <div class="skill">
-                <div class="skill-info">
-                    <span>CANTO</span>
-                    <span>80%</span>
-                </div>
-                <div class="skill-bar cs"></div>
+            <div class="service">
+                <img src="/static/images/cursos/guitarrapt.png">
+                <h4>CAVAQUINHO</h4>
             </div>
 
-            <div class="skill">
-                <div class="skill-info">
-                    <span>VIOLINO</span>
-                    <span>75%</span>
-                </div>
-                <div class="skill-bar cs"></div>
+            <div class="service">
+                <img src="/static/images/cursos/saxofone.png">
+                <h4>SAXOFONE</h4>
             </div>
 
-            <div class="skill">
-                <div class="skill-info">
-                    <span>FLAUTA TRANSVERSAL</span>
-                    <span>55%</span>
-                </div>
-                <div class="skill-bar cs"></div>
-            </div>
-
-            <div class="skill">
-                <div class="skill-info">
-                    <span>SAXOFONE</span>
-                    <span>65%</span>
-                </div>
-                <div class="skill-bar cs"></div>
-            </div>
-
-            <div class="skill">
-                <div class="skill-info">
-                    <span>DJ</span>
-                    <span>70%</span>
-                </div>
-                <div class="skill-bar cs"></div>
+            <div class="service">
+                <img src="/static/images/cursos/violino.png">
+                <h4>VIOLINO</h4>
             </div>
         </div>
+    </div>
+</section>
+
+
+<section id="faq">
+    <div class="inner-width">
+        <h1 class="section-title">QUESTÕES FREQUENTES</h1>
+        <div class="time-line">
+            <div class="block">
+                <h3>AULAS ONLINE - SITUAÇÃO DE EXCEPÇÃO DEVIDO À PANDEMIA POR COVID19</h3>
+                <p>Sempre que um aluno ou professor tiver sido diagnosticado com COVID 19 ou tiver tido contacto de
+                    proximidade com um doente e for determinada pela autoridade de saúde o seu isolamento, as aulas
+                    presenciais serão substituídas por aulas online nos mesmos horários e dias definidos.
+
+                    O aluno ou encarregado de educação deverá previamente informar o respectivo professor bem como
+                    enviar para o e-mail da escola o respectivo formulário de certificação de isolamento profilático
+                    preenchido pela autoridade de saúde.</p>
+            </div>
+
+            <div class="block">
+                <h3>INSCRIÇÃO DE NOVOS ALUNOS</h3>
+                <p>Os novos alunos deverão inscrever-se na recepção da CMB ou através do website. Será posteriormente
+                    agendada uma reunião com o respectivo professor da disciplina.
+                    Os novos alunos que pretendam frequentar qualquer um dos cursos da CMB terão que pagar uma taxa de
+                    inscrição no valor de 10€ e o seguro anual de 5€, válida para todas as atividades durante o ano
+                    letivo a ser paga junto com a primeira mensalidade.
+                    Os alunos antigos estão isentos de pagar taxa de inscrição. Em caso de desistência não haverá
+                    direito ao seu reembolso</p>
+            </div>
+
+            <div class="block">
+                <h3>REPOSIÇÃO DE FALTAS</h3>
+                <p>A CMB assumirá a responsabilidade da reposição de aulas, por cujas faltas tenha sido responsável. Não
+                    haverá lugar à reposição de aulas ou será descontada qualquer percentagem na mensalidade, nos
+                    períodos referentes às interrupções das atividades lectivas e aos feriados nacionais.
+                    A CMB não assume a responsabilidade de repor aulas a que os alunos faltaram, mesmo que justificadas.
+                    Fica ao critério do professor a sua reposição.
+                    As aulas dadas fora do calendário letivo nos meses de Setembro e Julho serão dadas em regime livre
+                    acordado com o professor de cada disciplina.</p>
+            </div>
+
+            <div class="block">
+                <h3>INDISCIPLINA</h3>
+                <p>Alunos com má conduta ou falta de aproveitamento escolar devem ser alvo de estudo. O professor deve
+                    tentar logicamente junto aos encarregados de educação tentar resolver a situação e dar conhecimento
+                    a todo o corpo docente da escola. Caso não existam alterações no comportamento do aluno o grupo
+                    docente poderá reunir com os encarregados de educação e em último caso tomar a decisão de anular a
+                    matrícula do aluno.</p>
+            </div>
+
+            <div class="block">
+                <h3>PAGAMENTOS E PENALIZAÇÕES</h3>
+                <p>Os pagamentos das mensalidades deverão ser efectuados na primeira aula de cada mês em numerário,
+                    diretamente na recepção da CMB ou por transferência bancária até ao dia 8 do corrente mês.
+                    O não cumprimento do pagamento dentro dos prazos estipulados terá um acréscimo de 10% sobre o valor
+                    da mensalidade. Se, até 20 dias após o prazo estipulado para a liquidação da mensalidade, a situação
+                    não estiver regularizada e não tiver sido apresentada qualquer justificação para a demora junto da
+                    EMA, esta poderá suspender a frequência do aluno até inteira regularização.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="price" class="dark">
+    <h1 class="section-title">PRECOS</h1>
+    <div class="tbl-header">
+        <table cellpadding="0" cellspacing="0" border="0">
+            <thead>
+            <tr>
+                <th>ATIVIDADE</th>
+                <th>AULAS</th>
+                <th>PRECO</th>
+            </tr>
+            </thead>
+        </table>
+    </div>
+    <div class="tbl-content">
+        <table cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+            <tr>
+                <td>Guitarra clássica, acústica e elétrica</td>
+                <td>2 / por semana</td>
+                <td>25€/ 40€ individual</td>
+            </tr>
+            <tr>
+                <td>Guitarra clássica, acústica e elétrica</td>
+                <td>3 / por semana</td>
+                <td>45€ / 60€ individual</td>
+            </tr>
+            <tr>
+                <td>Cavaquinho</td>
+                <td>2 / por semana</td>
+                <td>35€/ 45€ individual</td>
+            </tr>
+            <tr>
+                <td>Cavaquinho</td>
+                <td>3 / por semana</td>
+                <td>50€/ 60€ individual</td>
+            </tr>
+            <tr>
+                <td>Canto</td>
+                <td>2 / por semana</td>
+                <td>40€/ 60€ individual</td>
+            </tr>
+            <tr>
+                <td>Canto</td>
+                <td>3 / por semana</td>
+                <td>65€/ 80€ individual</td>
+            </tr>
+            <tr>
+                <td>Bateria</td>
+                <td>2 / por semana</td>
+                <td>40€/ 60€ individual</td>
+            </tr>
+            <tr>
+                <td>Bateria</td>
+                <td>3 / por semana</td>
+                <td>65€/ 85€ individual</td>
+            </tr>
+            <tr>
+                <td>Piano</td>
+                <td>2 / por semana</td>
+                <td>40€/ 60€ individual</td>
+            </tr>
+            <tr>
+                <td>Piano</td>
+                <td>3 / por semana</td>
+                <td>65€/ 85€ individual</td>
+            </tr>
+            <tr>
+                <td>Violino</td>
+                <td>2 / por semana</td>
+                <td>40€/ 60€ individual</td>
+            </tr>
+            <tr>
+                <td>Violino</td>
+                <td>3 / por semana</td>
+                <td>65€/ 85€ individual</td>
+            </tr>
+            <tr>
+                <td>Saxofone</td>
+                <td>2 / por semana</td>
+                <td>40€/ 60€ individual</td>
+            </tr>
+            <tr>
+                <td>Saxofone</td>
+                <td>3 / por semana</td>
+                <td>65€/ 85€ individual</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+
+<section id="contact">
+    <div class="inner-width">
+        <h1 class="section-title">ENTRA EM CONTACTO</h1>
+        <div class="contact-info">
+            <div class="item">
+                <i class="fas fa-mobile-alt"></i>
+                +365 963 965 166
+            </div>
+
+            <div class="item">
+                <i class="fas fa-envelope"></i>
+                escolacmb@gmail.com
+            </div>
+
+            <div class="item">
+                <i class="fas fa-map-marker-alt"></i>
+                Portugal, Braga
+            </div>
+        </div>
+
+        <form action="#" class="contact-form">
+            <input type="text" class="nameZone" placeholder="Nome Completo">
+            <input type="email" class="emailZone" placeholder="Email">
+            <input type="text" class="subjectZone" placeholder="Assunto">
+            <textarea class="messageZone" placeholder="Mensagem"></textarea>
+            <input type="submit" value="Enviar Mensagem" class="btn">
+        </form>
     </div>
 </section>
 
