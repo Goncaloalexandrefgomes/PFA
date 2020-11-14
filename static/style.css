@@ -110,7 +110,7 @@ html{
 #home{
   height: 100vh;
   min-height: 500px;
-  background: url(/static/images/bg/bg.jpg) no-repeat center;
+  background: url(/static/images/bg/bg8.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -469,7 +469,7 @@ td{
 
 /*------------------------------FOOTER------------------------------*/
 footer{
-  background: url(/static/images/bg/bg2.jpg) no-repeat center;
+  background: url(/static/images/bg/bg8.jpg) no-repeat center;
   color: #fff;
   padding: 80px 0;
   text-align: center;
