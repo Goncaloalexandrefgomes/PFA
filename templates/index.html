@@ -1,6 +1,9 @@
 {% extends 'layout.html' %}
 {% block conteudo %}
 <body>
+<div class="loader-container">
+    <div class="loader"></div>
+</div>
 <section id="home">
     <div class="inner-width">
         <div class="content">
@@ -281,4 +284,10 @@
     </div>
 </section>
 
+<script>
+        $(window).on("load",function(){
+            $(".loader-container").fadeOut(1000);
+        });
+
+</script>
 {% endblock %}

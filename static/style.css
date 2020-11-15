@@ -600,3 +600,202 @@ footer{
     max-width: 100%;
   }
 }
+
+/*------------------------------PIANO------------------------------*/
+#home2 {
+  height: 100vh;
+  min-height: 500px;
+  background: url(/static/images/bg/bg1.png) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#home2 .inner-width{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+
+#home2 .content{
+  width: 100%;
+  color: #fff;
+}
+
+#home2 .content h1{
+  font-size: 60px;
+  margin-bottom: 60px;
+}
+
+#home2 .buttons{
+  margin-top: 60px;
+}
+
+#home2 .buttons a{
+  display: inline-block;
+  margin: 15px 30px;
+  color: #48dbfb;
+  font-size: 15px;
+  font-weight: 500;
+  width: 180px;
+  border: 1px solid #48dbfb;
+  padding: 14px 0;
+  border-radius: 6px;
+  transition: .2s linear;
+}
+
+#home2 .buttons a:hover,
+#home2 .buttons a:nth-child(2)
+{
+  background-color: #48dbfb;
+  color: #fff;
+}
+
+
+
+/*------------------------------LOADER------------------------------*/
+.loader-container{
+    width: 100%;
+    height: 100vh;
+    background-color: #111;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader{
+    width: 50px;
+    height: 50px;
+    border: 5px solid;
+    color: #3498db;
+    border-radius: 50%;
+    border-top-color: transparent;
+    animation: loader 1.2s linear infinite;
+}
+
+@keyframes loader{
+    25%{
+        color: #2ecc71;
+    }
+    50%{
+        color: #f1c40f;
+    }
+    75%{
+        color: #e74c3c;
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+/*------------------------------LOGIN------------------------------*/
+#home3 {
+  height: 100vh;
+  min-height: 500px;
+  background: url(/static/images/bg/bglogin.png) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#home3 .inner-width{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+
+#home3 .content{
+  width: 100%;
+  color: #fff;
+}
+
+#home3 .content h1{
+  font-size: 60px;
+  margin-bottom: 60px;
+}
+
+#home3 .buttons{
+  margin-top: 60px;
+}
+
+#home3 .buttons a{
+  display: inline-block;
+  margin: 15px 30px;
+  color: #48dbfb;
+  font-size: 15px;
+  font-weight: 500;
+  width: 180px;
+  border: 1px solid #48dbfb;
+  padding: 14px 0;
+  border-radius: 6px;
+  transition: .2s linear;
+}
+
+#home3 .buttons a:hover,
+#home3 .buttons a:nth-child(2)
+{
+  background-color: #48dbfb;
+  color: #fff;
+}
+
+.signup-form{
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  background: url(/static/images/bg/bglogin.png);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  overflow: hidden;
+}
+.signup-form h1{
+  margin-top: 100px;
+  font-family: 'Permanent Marker', cursive;
+  color: #fff;
+  font-size: 40px;
+}
+.signup-form input{
+  display: block;
+  width: 100%;
+  padding: 0 16px;
+  height: 44px;
+  text-align: center;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  font-family: "montserrat",sans-serif;
+}
+.txtb{
+  margin: 20px 0;
+  background: rgba(255,255,255,.5);
+  border-radius: 6px;
+  color: white;
+}
+.signup-btn{
+  margin-top: 60px;
+  margin-bottom: 20px;
+  background: #487eb0;
+  color: #fff;
+  border-radius: 44px;
+  cursor: pointer;
+  transition: 0.8s;
+}
+.signup-btn:hover{
+  transform: scale(0.96);
+}
+.signup-form a{
+  text-decoration: none;
+  color: #fff;
+  font-family: "montserrat",sans-serif;
+  font-size: 14px;
+  padding: 10px;
+  transition: 0.8s;
+  display: block;
+}
+.signup-form a:hover{
+  background: rgba(0,0,0,.3);
+}

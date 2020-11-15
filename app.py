@@ -10,5 +10,9 @@ def index():
 def piano():
     return render_template('piano.html')
 
+@app.route('/login')
+def login():
+    return render_template('login.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
