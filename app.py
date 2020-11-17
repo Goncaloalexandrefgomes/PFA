@@ -14,5 +14,13 @@ def piano():
 def login():
     return render_template('login.html')
 
+@app.route('/guitarraacustica')
+def guitarraacustica():
+    return render_template('guitarraacustica.html')
+
+@app.route('/bateria')
+def bateria():
+    return render_template('bateria.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
