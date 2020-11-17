@@ -754,6 +754,312 @@ footer{
   color: #fff;
 }
 
+/*------------------------------CANTO------------------------------*/
+#home6 {
+  height: 100vh;
+  min-height: 500px;
+  background: url(/static/images/bg/bg11.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#home6 .inner-width{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+
+#home6 .content{
+  width: 100%;
+  color: #fff;
+}
+
+#home6 .content h1{
+  font-size: 60px;
+  margin-bottom: 60px;
+}
+
+#home6 .buttons{
+  margin-top: 60px;
+}
+
+#home6 .buttons a{
+  display: inline-block;
+  margin: 15px 30px;
+  color: #48dbfb;
+  font-size: 15px;
+  font-weight: 500;
+  width: 180px;
+  border: 1px solid #48dbfb;
+  padding: 14px 0;
+  border-radius: 6px;
+  transition: .2s linear;
+}
+
+#home6 .buttons a:hover,
+#home6 .buttons a:nth-child(2)
+{
+  background-color: #48dbfb;
+  color: #fff;
+}
+
+/*------------------------------GUITARRA------------------------------*/
+#home7 {
+  height: 100vh;
+  min-height: 500px;
+  background: url(/static/images/bg/bg12.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#home7 .inner-width{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+
+#home7 .content{
+  width: 100%;
+  color: #fff;
+}
+
+#home7 .content h1{
+  font-size: 60px;
+  margin-bottom: 60px;
+}
+
+#home7 .buttons{
+  margin-top: 60px;
+}
+
+#home7 .buttons a{
+  display: inline-block;
+  margin: 15px 30px;
+  color: #48dbfb;
+  font-size: 15px;
+  font-weight: 500;
+  width: 180px;
+  border: 1px solid #48dbfb;
+  padding: 14px 0;
+  border-radius: 6px;
+  transition: .2s linear;
+}
+
+#home7 .buttons a:hover,
+#home7 .buttons a:nth-child(2)
+{
+  background-color: #48dbfb;
+  color: #fff;
+}
+
+/*------------------------------GUITARRA ELETRICA------------------------------*/
+#home8 {
+  height: 100vh;
+  min-height: 500px;
+  background: url(/static/images/bg/bg13.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#home8 .inner-width{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+
+#home8 .content{
+  width: 100%;
+  color: #fff;
+}
+
+#home8 .content h1{
+  font-size: 60px;
+  margin-bottom: 60px;
+}
+
+#home8 .buttons{
+  margin-top: 60px;
+}
+
+#home8 .buttons a{
+  display: inline-block;
+  margin: 15px 30px;
+  color: #48dbfb;
+  font-size: 15px;
+  font-weight: 500;
+  width: 180px;
+  border: 1px solid #48dbfb;
+  padding: 14px 0;
+  border-radius: 6px;
+  transition: .2s linear;
+}
+
+#home8 .buttons a:hover,
+#home8 .buttons a:nth-child(2)
+{
+  background-color: #48dbfb;
+  color: #fff;
+}
+
+/*------------------------------CAVAQUINHO------------------------------*/
+#home9 {
+  height: 100vh;
+  min-height: 500px;
+  background: url(/static/images/bg/bg14.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#home9 .inner-width{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+
+#home9 .content{
+  width: 100%;
+  color: #fff;
+}
+
+#home9 .content h1{
+  font-size: 60px;
+  margin-bottom: 60px;
+}
+
+#home9 .buttons{
+  margin-top: 60px;
+}
+
+#home9 .buttons a{
+  display: inline-block;
+  margin: 15px 30px;
+  color: #48dbfb;
+  font-size: 15px;
+  font-weight: 500;
+  width: 180px;
+  border: 1px solid #48dbfb;
+  padding: 14px 0;
+  border-radius: 6px;
+  transition: .2s linear;
+}
+
+#home9 .buttons a:hover,
+#home9 .buttons a:nth-child(2)
+{
+  background-color: #48dbfb;
+  color: #fff;
+}
+
+/*------------------------------Saxofone------------------------------*/
+#home10 {
+  height: 100vh;
+  min-height: 500px;
+  background: url(/static/images/bg/bg15.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#home10 .inner-width{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+
+#home10 .content{
+  width: 100%;
+  color: #fff;
+}
+
+#home10 .content h1{
+  font-size: 60px;
+  margin-bottom: 60px;
+}
+
+#home10 .buttons{
+  margin-top: 60px;
+}
+
+#home10 .buttons a{
+  display: inline-block;
+  margin: 15px 30px;
+  color: #48dbfb;
+  font-size: 15px;
+  font-weight: 500;
+  width: 180px;
+  border: 1px solid #48dbfb;
+  padding: 14px 0;
+  border-radius: 6px;
+  transition: .2s linear;
+}
+
+#home10 .buttons a:hover,
+#home10 .buttons a:nth-child(2)
+{
+  background-color: #48dbfb;
+  color: #fff;
+}
+
+/*------------------------------VIOLINO------------------------------*/
+#home11 {
+  height: 100vh;
+  min-height: 500px;
+  background: url(/static/images/bg/bg16.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#home11 .inner-width{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+
+#home11 .content{
+  width: 100%;
+  color: #fff;
+}
+
+#home11 .content h1{
+  font-size: 60px;
+  margin-bottom: 60px;
+}
+
+#home11 .buttons{
+  margin-top: 60px;
+}
+
+#home11 .buttons a{
+  display: inline-block;
+  margin: 15px 30px;
+  color: #48dbfb;
+  font-size: 15px;
+  font-weight: 500;
+  width: 180px;
+  border: 1px solid #48dbfb;
+  padding: 14px 0;
+  border-radius: 6px;
+  transition: .2s linear;
+}
+
+#home11 .buttons a:hover,
+#home11 .buttons a:nth-child(2)
+{
+  background-color: #48dbfb;
+  color: #fff;
+}
+
 /*------------------------------PAGINASPARAINSTRUMENTOS------------------------------*/
 .sobre-section{
   width: 100%;

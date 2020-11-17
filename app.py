@@ -22,5 +22,29 @@ def guitarraacustica():
 def bateria():
     return render_template('bateria.html')
 
+@app.route('/canto')
+def canto():
+    return render_template('canto.html')
+
+@app.route('/guitarra')
+def guitarra():
+    return render_template('guitarra.html')
+
+@app.route('/guitarraeletrica')
+def guitarraeletrica():
+    return render_template('guitarraeletrica.html')
+
+@app.route('/cavaquinho')
+def cavaquinho():
+    return render_template('cavaquinho.html')
+
+@app.route('/saxofone')
+def saxofone():
+    return render_template('saxofone.html')
+
+@app.route('/violino')
+def violino():
+    return render_template('violino.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
