@@ -18,14 +18,17 @@
     </div>
 </section>
 
-<section id="login">
+<section id="registo">
     <div class="signup-form">
         <form>
-            <h1>Log In</h1>
-            <input type="text" placeholder="Nome Completo" class="txtb">
-            <input type="email" placeholder="Email" class="txtb">
-            <input type="password" placeholder="Password" class="txtb">
-            <input type="submit" value="Entrar" class="signup-btn">
+            <h1>Registo</h1>
+            <form method="post">
+                <input type="text" name='utilizador' required placeholder="Nome de Utilizador" class="txtb">
+                <input type="email" name='email' required placeholder="Email" class="txtb">
+                <input type="password" name='passe' required placeholder="Password" class="txtb">
+                <input type="password" name='cpasse' required placeholder="Comfirme a Password" class="txtb">
+                <input type="submit" value="Submeter" class="signup-btn">
+            </form>
         </form>
     </div>
 </section>
@@ -33,6 +36,8 @@
         $(window).on("load",function(){
             $(".loader-container").fadeOut(1000);
         });
+
 </script>
 </body>
+{% if erro %}<h1>{{ erro }}</h1>{% endif %}
 {% endblock %}

@@ -67,7 +67,7 @@ def login():
     return render_template('login.html', erro=erro)
 
 @app.route('/registo', methods=['GET', 'POST'])
-def registo():
+def route():
     erro = None
     if request.method == 'POST':
         v1 = request.form['utilizador']
