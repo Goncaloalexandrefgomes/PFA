@@ -5,33 +5,22 @@
     <div class="loader"></div>
 </div>
 
-<section id="home3">
-    <div class="inner-width">
-        <div class="content">
-            <h1>LOGIN</h1>
-            <div class="sm">
-                <a href="https://www.facebook.com" class="fab fa-facebook-f"></a>
-                <a href="https://twitter.com/home" class="fab fa-twitter"></a>
-                <a href="https://instagram.com" class="fab fa-instagram"></a>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="registo">
-    <div class="signup-form">
-        <form>
-            <h1>Registo</h1>
-            <form method="post">
-                <input type="text" required placeholder="Nome de Utilizador" class="txtb">
-                <input type="email" required placeholder="Email" class="txtb">
-                <input type="password" required placeholder="Password" class="txtb">
-                <input type="password" required placeholder="Comfirme a Password" class="txtb">
-                <input type="submit" value="Submeter" class="signup-btn">
-            </form>
-        </form>
-    </div>
-</section>
+<h2>Criar Conta</h2>
+<fieldset>
+    <legend>Introduza os seus dados</legend>
+    <form method="post">
+        <h4>Utilizador</h4>
+        <input type='text' name='utilizador' required>
+        <h4>Endereço de Email</h4>
+        <input type='text' name='email' required>
+        <h4>Palavra-Passe</h4>
+        <input type='password' name='passe' required>
+        <h4>Confirme a Passe</h4>
+        <input type='password' name='cpasse' required>
+        <p><br></p>
+        <input type='submit' value="Submeter">
+    </form>
+</fieldset>
 <script>
         $(window).on("load",function(){
             $(".loader-container").fadeOut(1000);
