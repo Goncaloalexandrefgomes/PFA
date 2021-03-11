@@ -86,7 +86,7 @@ def login():
         elif not log(v1, v2):
             erro = 'A palavra passe está errada.'
         else:
-            webbrowser.open("127.0.0.1:5000")
+            webbrowser.open("https://bd120406.herokuapp.com/")
             erro = 'Bem-Vindo.'
     return render_template('login.html', erro=erro)
 
